@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-left:10%;
+    padding-right: 10%;
+   padding-top: 2%;
+    width:100vw;
+    height:100vh;
+    border: 2px solid gainsboro;
+}
+.container1{
+    width:30%;
+    height:130vh;
+    background-color:rgb(246, 240, 240);
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+.container2{
+    width:30%;
+    height:130vh;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    background-color: rgb(236, 229, 229);
+}
+.top{
+    height:40vh;
+    background-color: rgb(39, 37, 37);
+    border-bottom-left-radius: 230px;
+    border-bottom-right-radius: 230px;
+    /* margin-bottom: 20%; */
+}
+.bottom{
+    margin-top: 3%;
+    padding-top: 40px;
+    height:65vh;
+    
+    background-color: rgb(39, 37, 37);
+    border-top-left-radius: 230px;
+    border-top-right-radius: 230px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color:white;
+    /* text-decoration:underline;
+    text-decoration-color: white; */
+}
+dl{
+    color:white;
+    margin-top: 10px;
+}
+.imagi{
+    height:24vh;
+    width:11vw;
+    margin-top: 4%;
+    border-radius: 85px;
+    border:7px solid white;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* justify-content: ;
+    align-items: center; */
+}
+.dd{
+    color:black;
+}
+.con{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    
+    margin-top: 10px;
+}
+
+.clgnam{
+    color:rgba(239, 237, 231, 0.92);
+    float: left;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  margin-right: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+.inp,.val{
+    display: flex;
+    flex-direction: column;
+}
+.one1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
